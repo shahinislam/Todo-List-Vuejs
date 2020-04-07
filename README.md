@@ -10,15 +10,6 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![vue_todolist_project](https://user-images.githubusercontent.com/33843231/78655949-7fcb5800-78e8-11ea-8a1a-859133918904.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
