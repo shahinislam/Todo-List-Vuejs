@@ -3,9 +3,7 @@
 ## Project setup
 ```
 npm install
-
 npm run serve
-
 npm install axios
 ```
 
@@ -13,7 +11,7 @@ npm install axios
 
 
 ## views/Home.vue
-```
+```vue
 <template>
   <div id="app">
     <AddTodo v-on:add-todo="addTodo" />
