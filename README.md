@@ -89,7 +89,7 @@ export default {
 ```
 
 ## AddTodo.vue
-```
+```vue
 <template>
     <div>
         <form @submit="addTodo">
@@ -157,10 +157,11 @@ export default {
         background: #666;
     }
 </style>
+
 ```
 
 ## Todos.vue
-```
+```vue
 <template>
     <div>
         <div v-for="todo in todos" :key="todo.id">
@@ -188,7 +189,8 @@ export default {
 ```
 
 ## TodoItem.vue
-```
+
+```vue
 <template>
     <div class="todo-item" :class="{'is-complete' : todo.completed}">
         <p>
